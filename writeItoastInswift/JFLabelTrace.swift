@@ -10,13 +10,13 @@ import UIKit
 
 class JFLabelTrace: UILabel {
 
-    var textShadowColor = UIColor.clearColor();
-    init(frame:CGRect,withShadowColor shadowColor:UIColor,offsetsize offset:CGSize,textColor mytextColor:UIColor)
+    var textShadowColor:UIColor?;
+    init(frame:CGRect,withShadowColor myshadowColor:UIColor?,offsetsize offset:CGSize,textColor mytextColor:UIColor?)
     {
         super.init(frame: frame);
-        super.shadowColor = shadowColor;
+        super.shadowColor = myshadowColor;
         super.shadowOffset = offset;
-        super.textColor = textColor;
+        super.textColor = mytextColor;
         super.backgroundColor = UIColor.clearColor();
     }
 
@@ -24,35 +24,29 @@ class JFLabelTrace: UILabel {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setTextShadowColor(textshadowColor:UIColor)
+    func setTextShadowColor(mytextshadowColor:UIColor)
     {
-        self.shadowColor = textshadowColor;
+        self.shadowColor = mytextshadowColor;
     }
     
     override func drawTextInRect(rect: CGRect) {
-        var shadowOffet = self.shadowColor;
-        var textcolor = self.textColor;
+        var myshadowOffet = self.shadowOffset;
+        var mytextcolor = self.textColor;
         var c = UIGraphicsGetCurrentContext();
         CGContextSetLineWidth(c, 1);
         CGContextSetLineJoin(c, kCGLineJoinRound);
-        CGContextSetTextDrawingMode(c, kCGTextFillStroke);
+        CGContextSetTextDrawingMode(c, kCGTextStroke);
         self.textColor = self.shadowColor;
         super.drawTextInRect(rect);
         
         CGContextSetTextDrawingMode(c, kCGTextFill);
-        self.textColor = textColor;
+        self.textColor = mytextcolor;
         self.shadowOffset = CGSizeMake(0, 0);
         super.drawTextInRect(rect);
-        self.shadowOffset = shadowOffset;
+        self.shadowOffset = myshadowOffet;
         
         
     }
-    /*
-    // Only override drawRect: if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func drawRect(rect: CGRect) {
-        // Drawing code
-    }
-    */
+
 
 }
