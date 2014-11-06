@@ -14,6 +14,8 @@
 		0E94D60B1A09C2A70038570D /* writeItoastInswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94D60A1A09C2A70038570D /* writeItoastInswiftTests.swift */; };
 		0E94D6151A09C54B0038570D /* iToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E94D6141A09C54B0038570D /* iToast.swift */; };
 		0E94D6171A0A06240038570D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0E94D6161A0A06240038570D /* README.md */; };
+		0EE794201A0B1264003D8CCE /* JFAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7941F1A0B1264003D8CCE /* JFAlertView.swift */; };
+		0EE794221A0B1498003D8CCE /* JFLabelTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE794211A0B1498003D8CCE /* JFLabelTrace.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		0E94D60A1A09C2A70038570D /* writeItoastInswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = writeItoastInswiftTests.swift; sourceTree = "<group>"; };
 		0E94D6141A09C54B0038570D /* iToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iToast.swift; sourceTree = "<group>"; };
 		0E94D6161A0A06240038570D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0EE7941F1A0B1264003D8CCE /* JFAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFAlertView.swift; sourceTree = "<group>"; };
+		0EE794211A0B1498003D8CCE /* JFLabelTrace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFLabelTrace.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				0E94D5F41A09C2A70038570D /* AppDelegate.swift */,
 				0E94D5F61A09C2A70038570D /* ViewController.swift */,
 				0E94D6141A09C54B0038570D /* iToast.swift */,
+				0EE7941F1A0B1264003D8CCE /* JFAlertView.swift */,
+				0EE794211A0B1498003D8CCE /* JFLabelTrace.swift */,
 				0E94D5FB1A09C2A70038570D /* Images.xcassets */,
 				0E94D5FD1A09C2A70038570D /* LaunchScreen.xib */,
 				0E94D5F21A09C2A70038570D /* Supporting Files */,
@@ -214,6 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE794221A0B1498003D8CCE /* JFLabelTrace.swift in Sources */,
+				0EE794201A0B1264003D8CCE /* JFAlertView.swift in Sources */,
 				0E94D5F71A09C2A70038570D /* ViewController.swift in Sources */,
 				0E94D6151A09C54B0038570D /* iToast.swift in Sources */,
 				0E94D6171A0A06240038570D /* README.md in Sources */,
@@ -401,6 +409,7 @@
 				0E94D6101A09C2A70038570D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E94D6111A09C2A70038570D /* Build configuration list for PBXNativeTarget "writeItoastInswiftTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +418,7 @@
 				0E94D6131A09C2A70038570D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
