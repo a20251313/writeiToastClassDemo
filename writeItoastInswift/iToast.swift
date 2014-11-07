@@ -235,9 +235,11 @@ class iToast: NSObject {
    
         var timer1 = NSTimer(timeInterval: duraion,target: self, selector: "hideToast:", userInfo: nil, repeats: false);
       //  NSTimer(timeInterval: <#NSTimeInterval#>, target: <#AnyObject#>, selector: <#Selector#>, userInfo: <#AnyObject?#>, repeats: <#Bool#>)
-        NSRunLoop.currentRunLoop().addTimer(timer1, forMode: NSDefaultRunLoopMode);
-        window.addSubview(button);
         view = button;
+        window.addSubview(button);
+        NSRunLoop.currentRunLoop().addTimer(timer1, forMode: NSDefaultRunLoopMode);
+   
+       
 
     }
     

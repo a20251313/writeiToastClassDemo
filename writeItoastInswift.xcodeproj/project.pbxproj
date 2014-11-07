@@ -17,6 +17,7 @@
 		0EE794201A0B1264003D8CCE /* JFAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE7941F1A0B1264003D8CCE /* JFAlertView.swift */; };
 		0EE794221A0B1498003D8CCE /* JFLabelTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE794211A0B1498003D8CCE /* JFLabelTrace.swift */; };
 		0EE794241A0B1E64003D8CCE /* JFButtonTrace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE794231A0B1E64003D8CCE /* JFButtonTrace.swift */; };
+		0EE794261A0B425E003D8CCE /* MBProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE794251A0B425E003D8CCE /* MBProgressHUD.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0EE7941F1A0B1264003D8CCE /* JFAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFAlertView.swift; sourceTree = "<group>"; };
 		0EE794211A0B1498003D8CCE /* JFLabelTrace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFLabelTrace.swift; sourceTree = "<group>"; };
 		0EE794231A0B1E64003D8CCE /* JFButtonTrace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFButtonTrace.swift; sourceTree = "<group>"; };
+		0EE794251A0B425E003D8CCE /* MBProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUD.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				0EE7941F1A0B1264003D8CCE /* JFAlertView.swift */,
 				0EE794211A0B1498003D8CCE /* JFLabelTrace.swift */,
 				0EE794231A0B1E64003D8CCE /* JFButtonTrace.swift */,
+				0EE794251A0B425E003D8CCE /* MBProgressHUD.swift */,
 				0E94D5FB1A09C2A70038570D /* Images.xcassets */,
 				0E94D5FD1A09C2A70038570D /* LaunchScreen.xib */,
 				0E94D5F21A09C2A70038570D /* Supporting Files */,
@@ -226,6 +229,7 @@
 				0EE794221A0B1498003D8CCE /* JFLabelTrace.swift in Sources */,
 				0EE794201A0B1264003D8CCE /* JFAlertView.swift in Sources */,
 				0EE794241A0B1E64003D8CCE /* JFButtonTrace.swift in Sources */,
+				0EE794261A0B425E003D8CCE /* MBProgressHUD.swift in Sources */,
 				0E94D5F71A09C2A70038570D /* ViewController.swift in Sources */,
 				0E94D6151A09C54B0038570D /* iToast.swift in Sources */,
 				0E94D6171A0A06240038570D /* README.md in Sources */,
